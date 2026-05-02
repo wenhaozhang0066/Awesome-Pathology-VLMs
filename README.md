@@ -3,7 +3,6 @@
 
 <h1>Awesome-Pathology-VLMs</h1>
 
-<p>A curated awesome list of pathology vision-language models, multimodal LLMs, datasets, benchmarks, and more.</p>
 
 <p>
   <a href="https://github.com/easonPing/Awesome-Pathology-VLMs"><img src="https://img.shields.io/badge/awesome-yes-brightgreen.svg?style=flat-square" alt="Awesome"></a>
@@ -13,6 +12,8 @@
   <a href="https://github.com/easonPing/Awesome-Pathology-VLMs/commits/main"><img src="https://img.shields.io/github/last-commit/easonPing/Awesome-Pathology-VLMs?style=flat-square" alt="Last Commit"></a>
   <a href="https://github.com/easonPing/Awesome-Pathology-VLMs/stargazers"><img src="https://img.shields.io/github/stars/easonPing/Awesome-Pathology-VLMs?style=flat-square" alt="Stars"></a>
 </p>
+
+<p><strong>A curated awesome list of pathology vision-language models, multimodal LLMs, datasets, benchmarks, and more.</strong></p>
 
 </div>
 
