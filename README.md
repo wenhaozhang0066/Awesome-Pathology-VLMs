@@ -1,10 +1,20 @@
 
+<div align="center">
 
-# Awesome-Pathology-VLMs
+<h1>Awesome-Pathology-VLMs</h1>
 
-A curated awesome list of pathology vision-language models, datasets, benchmarks, and more.
+<p>A curated awesome list of pathology vision-language models, multimodal LLMs, datasets, benchmarks, and more.</p>
 
+<p>
+  <a href="https://github.com/easonPing/Awesome-Pathology-VLMs"><img src="https://img.shields.io/badge/awesome-yes-brightgreen.svg?style=flat-square" alt="Awesome"></a>
+  <a href="https://github.com/easonPing/Awesome-Pathology-VLMs"><img src="https://img.shields.io/badge/topic-Pathology%20VLMs-blue.svg?style=flat-square" alt="Topic: Pathology VLMs"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-Apache--2.0-blue.svg?style=flat-square" alt="License: Apache-2.0"></a>
+  <a href="https://github.com/easonPing/Awesome-Pathology-VLMs/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome"></a>
+  <a href="https://github.com/easonPing/Awesome-Pathology-VLMs/commits/main"><img src="https://img.shields.io/github/last-commit/easonPing/Awesome-Pathology-VLMs?style=flat-square" alt="Last Commit"></a>
+  <a href="https://github.com/easonPing/Awesome-Pathology-VLMs/stargazers"><img src="https://img.shields.io/github/stars/easonPing/Awesome-Pathology-VLMs?style=flat-square" alt="Stars"></a>
+</p>
 
+</div>
 
 ## News & Updates
 
