@@ -13,7 +13,7 @@
   <a href="https://github.com/easonPing/Awesome-Pathology-VLMs/stargazers"><img src="https://img.shields.io/github/stars/easonPing/Awesome-Pathology-VLMs?style=flat-square" alt="Stars"></a>
 </p>
 
-<p><strong>A curated awesome list of pathology vision-language models, multimodal LLMs, datasets, benchmarks, and related resources.</strong></p>
+<p><strong>A curated awesome list of pathology vision-language models, datasets, benchmarks, and related resources.</strong></p>
 
 </div>
 
