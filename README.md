@@ -37,6 +37,16 @@
 
 ## 1. Aim of the Project
 
+This project aims to:
+
+- **Curate** representative papers, datasets, and benchmarks in the field of  pathology VLMs.
+
+- **Organize** the related works by model paradigm and input granularity, including patch-level, ROI-level, and whole-slide-level methods.
+
+- **Track** progress of open-source works in the field of pathology VLMs.
+
+- **Help** researchers follow recent progress and identify open challenges in pathology VLMs.
+
 ## 2. Pathology VLMs
 
 Use the **Granularity** column to mark where each system operates:
