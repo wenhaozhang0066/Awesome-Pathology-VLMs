@@ -43,7 +43,7 @@ For systems spanning multiple levels, use combined labels such as `G1/G3` or `G2
 
 Pathology VLMs trained with image-text contrastive alignment or related dual-encoder objectives.
 
-| Model Name | Paper Title | Granularity | Resources&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Summary |
+| Model Name | Paper Title | Granularity | Resources&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Summary |
 | ---------- | ----------- | ----------- | --------- | ------- |
 | PLIP | A Visual-Language Foundation Model for Pathology Image Analysis Using Medical Twitter | G1 | <a href="https://doi.org/10.1038/s41591-023-02504-3"><img src="https://img.shields.io/badge/Paper-Nat%20Med%202023-1f77b4.svg" alt="Paper" height="20"></a> <a href="https://github.com/PathologyFoundation/plip"><img src="https://img.shields.io/badge/Code-GitHub-green.svg" alt="Code" height="20"></a> <a href="https://huggingface.co/spaces/vinid/webplip"><img src="https://img.shields.io/badge/Website-HuggingFace-ffb6c1.svg" alt="Website" height="20"></a> | Introduces PLIP, a CLIP-style pathology VLM trained on OpenPath image-caption pairs for zero-shot classification and retrieval. |
 | CONCH | A Visual-Language Foundation Model for Computational Pathology | G1/G2/G3 | <a href="https://doi.org/10.1038/s41591-024-02856-4"><img src="https://img.shields.io/badge/Paper-Nat%20Med%202024-1f77b4.svg" alt="Paper" height="20"></a> <a href="https://github.com/mahmoodlab/CONCH"><img src="https://img.shields.io/badge/Code-GitHub-green.svg" alt="Code" height="20"></a> | Introduces CONCH, a large-scale CoCa-trained pathology VLM used for zero-shot classification, retrieval, captioning, and as a backbone for later systems. |
@@ -59,7 +59,7 @@ Pathology VLMs trained with image-text contrastive alignment or related dual-enc
 
 Pathology MLLMs that connect pathology visual encoders to language models and are trained or instruction-tuned for generation, dialogue, VQA, or report-style outputs.
 
-| Model Name | Paper Title | Granularity | Resources&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Summary |
+| Model Name | Paper Title | Granularity | Resources&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Summary |
 | ---------- | ----------- | ----------- | --------- | ------- |
 | LLaVA-Med | LLaVA-Med: Training a Large Language-and-Vision Assistant for Biomedicine in One Day | G1 | <a href="https://arxiv.org/abs/2306.00890"><img src="https://img.shields.io/badge/Paper-NeurIPS%20D%26B%202023-d62728.svg" alt="Paper" height="20"></a> <a href="https://github.com/microsoft/LLaVA-Med"><img src="https://img.shields.io/badge/Code-GitHub-green.svg" alt="Code" height="20"></a> | Establishes the biomedical visual-instruction-tuned VLM template using BiomedCLIP, Vicuna, and GPT-4-synthesized biomedical instructions. |
 | Quilt-LLaVA | Quilt-LLaVA: Visual Instruction Tuning by Extracting Localized Narratives from Open-Source Histopathology Videos | G1 | <a href="https://arxiv.org/abs/2312.04746"><img src="https://img.shields.io/badge/Paper-CVPR%202024-d62728.svg" alt="Paper" height="20"></a> <a href="https://github.com/aldraus/quilt-llava"><img src="https://img.shields.io/badge/Code-GitHub-green.svg" alt="Code" height="20"></a> <a href="https://quilt-llava.github.io/"><img src="https://img.shields.io/badge/Website-Project-ffb6c1.svg" alt="Website" height="20"></a> | Builds a histopathology instruction-tuned assistant from localized narratives mined from YouTube pathology lectures. |
@@ -78,7 +78,7 @@ Pathology MLLMs that connect pathology visual encoders to language models and ar
 
 Pathology VLMs or MLLMs that add explicit reasoning, chain-of-thought-style supervision, RLVR, preference optimization, structured memory, or reference-free evaluation.
 
-| Model Name | Paper Title | Granularity | Resources&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Summary |
+| Model Name | Paper Title | Granularity | Resources&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Summary |
 | ---------- | ----------- | ----------- | --------- | ------- |
 | EAGLE | EAGLE: Expert-Guided Self-Enhancement for Preference Alignment in Pathology Large Vision-Language Model | G1 | <a href="https://doi.org/10.18653/v1/2025.acl-long.711"><img src="https://img.shields.io/badge/Paper-ACL%202025-d62728.svg" alt="Paper" height="20"></a> <a href="https://github.com/meidandz/EAGLE"><img src="https://img.shields.io/badge/Code-GitHub-green.svg" alt="Code" height="20"></a> | Uses expert-guided iterative DPO preference alignment to improve pathology VQA recall and visual-prompt robustness. |
 | PathVLM-R1 | PathVLM-R1: A Reinforcement Learning-Driven Reasoning Model for Pathology Visual-Language Tasks | G1 | <a href="https://arxiv.org/abs/2504.09258"><img src="https://img.shields.io/badge/Paper-arXiv%202025-6A5ACD.svg" alt="Paper" height="20"></a> | Applies GRPO with format and accuracy rewards to Qwen2.5-VL using a small pathology RL set. |
@@ -91,7 +91,7 @@ Pathology VLMs or MLLMs that add explicit reasoning, chain-of-thought-style supe
 
 Pathology systems where an LLM or MLLM orchestrates perception, slide navigation, retrieval, tool use, multi-scale inspection, or external domain-specific modules.
 
-| Model Name | Paper Title | Granularity | Resources&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Summary |
+| Model Name | Paper Title | Granularity | Resources&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Summary |
 | ---------- | ----------- | ----------- | --------- | ------- |
 | CPathAgent | CPathAgent: An Agent-based Foundation Model for Interpretable High-Resolution Pathology Image Analysis Mimicking Pathologists' Diagnostic Logic | G2/G3 | <a href="https://arxiv.org/abs/2505.20510"><img src="https://img.shields.io/badge/Paper-NeurIPS%202025-d62728.svg" alt="Paper" height="20"></a> | Recasts WSI analysis as pathologist-like zoom-and-scan trajectories and introduces PathMMU-HR2 for ROI-scale VQA. |
 | PathAgent | PathAgent: Toward Interpretable Analysis of Whole-slide Pathology Images via Large Language Model-based Agentic Reasoning | G1/G2/G3 | <a href="https://arxiv.org/abs/2511.17052"><img src="https://img.shields.io/badge/Paper-arXiv%202025-6A5ACD.svg" alt="Paper" height="20"></a> <a href="https://github.com/G14nTDo4/PathAgent"><img src="https://img.shields.io/badge/Code-GitHub-green.svg" alt="Code" height="20"></a> | Composes PLIP, Patho-R1, and Qwen3 in a training-free agent for whole-slide reasoning. |
@@ -102,7 +102,7 @@ Pathology systems where an LLM or MLLM orchestrates perception, slide navigation
 
 Slide-level MIL methods that use frozen VLMs, text embeddings, prompts, or language-derived priors to improve WSI aggregation.
 
-| Model Name | Paper Title | Granularity | Resources&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Summary |
+| Model Name | Paper Title | Granularity | Resources&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Summary |
 | ---------- | ----------- | ----------- | --------- | ------- |
 | ViLa-MIL | ViLa-MIL: Dual-scale Vision-Language Multiple Instance Learning for Whole Slide Image Classification | G3 | <a href="https://doi.org/10.1109/CVPR52733.2024.01069"><img src="https://img.shields.io/badge/Paper-CVPR%202024-d62728.svg" alt="Paper" height="20"></a> <a href="https://github.com/Jiangbo-Shi/ViLa-MIL"><img src="https://img.shields.io/badge/Code-GitHub-green.svg" alt="Code" height="20"></a> | Uses frozen CLIP and GPT-3.5-derived textual prompts with prototype-guided MIL for few-shot WSI classification. |
 | VLEER | VLEER: Vision and Language Embeddings for Explainable Whole Slide Image Representation | G3 | <a href="https://arxiv.org/abs/2502.20850"><img src="https://img.shields.io/badge/Paper-MICCAI--W%202025-d62728.svg" alt="Paper" height="20"></a> | Injects task-keyword text embeddings from frozen CONCH into WSI MIL aggregators for explainable slide representation. |
