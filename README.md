@@ -6,7 +6,7 @@
   <img src="hero_image/hero_image%20(4).png" alt="Awesome Pathology VLMs" width="100%">
 </p>
 
-Photo Credit: GPT-generated image.
+<p align="center"><em>Photo Credit: <a href="https://openai.com/index/introducing-chatgpt-images-2-0/">ChatGPT Images 2.0</a>.</em></p>
 
 ## News & Updates
 
