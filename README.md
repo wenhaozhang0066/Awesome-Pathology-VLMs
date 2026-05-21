@@ -1,6 +1,11 @@
 # Awesome-Pathology-VLMs
 
-[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![Digital Pathology](https://img.shields.io/badge/Topic-Digital%20Pathology-8A2BE2.svg)](#) [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/easonPing/Awesome-Pathology-VLMs/pulls)
+<p align="center">
+  <a href="https://github.com/sindresorhus/awesome"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Topic-Digital%20Pathology-8A2BE2.svg" alt="Topic: Digital Pathology"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache_2.0-blue.svg" alt="License: Apache 2.0"></a>
+  <a href="https://github.com/easonPing/Awesome-Pathology-VLMs/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome"></a>
+</p>
 
 **A curated awesome list of pathology vision-language models, datasets, benchmarks, and related resources.**
 
@@ -27,7 +32,7 @@
 - [3. Datasets and Benchmarks](#3-datasets-and-benchmarks)
 - [4. Acknowledgements](#4-acknowledgements)
 - [5. Citation](#5-citation)
-- [Star History](#-star-history)
+- [6. Star History](#6-star-history)
 
 ## 1. Aim of the Project
 
@@ -185,6 +190,6 @@ If this repository is helpful for your project, please consider citing it:
 }
 ```
 
-## ⭐ Star History
+## 6. Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=easonPing/Awesome-Pathology-VLMs&type=Date)](https://www.star-history.com/#easonPing/Awesome-Pathology-VLMs&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=easonPing/Awesome-Pathology-VLMs&type=Date)](https://star-history.com/#easonPing/Awesome-Pathology-VLMs&Date)
