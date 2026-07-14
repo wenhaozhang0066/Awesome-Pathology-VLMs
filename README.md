@@ -4,7 +4,7 @@
   <a href="https://github.com/sindresorhus/awesome"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome"></a>
   <a href="#"><img src="https://img.shields.io/badge/Topic-Digital%20Pathology-8A2BE2.svg" alt="Topic: Digital Pathology"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache_2.0-blue.svg" alt="License: Apache 2.0"></a>
-  <a href="https://github.com/easonPing/Awesome-Pathology-VLMs/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome"></a>
+  <a href="https://github.com/wenhaozhang0066/Awesome-Pathology-VLMs/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome"></a>
 </p>
 
 **A curated awesome list of pathology vision-language models, datasets, benchmarks, and related resources.**
@@ -186,10 +186,10 @@ If this repository is helpful for your project, please consider citing it:
   author = {{Awesome-Pathology-VLMs Contributors}},
   journal = {Github repository},
   year = {2026},
-  url = {https://github.com/easonPing/Awesome-Pathology-VLMs},
+  url = {https://github.com/wenhaozhang0066/Awesome-Pathology-VLMs},
 }
 ```
 
 ## 6. Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=easonPing/Awesome-Pathology-VLMs&type=Date)](https://star-history.com/#easonPing/Awesome-Pathology-VLMs&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=wenhaozhang0066/Awesome-Pathology-VLMs&type=Date)](https://star-history.com/#wenhaozhang0066/Awesome-Pathology-VLMs&Date)
