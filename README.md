@@ -30,6 +30,7 @@
   - [2.4 Agent-Based Systems](#24-agent-based-systems)
   - [2.5 VLM-Augmented MIL](#25-vlm-augmented-mil)
 - [3. Datasets and Benchmarks](#3-datasets-and-benchmarks)
+- [Related: Histology and Spatial Transcriptomics](#related-histology-and-spatial-transcriptomics)
 - [4. Acknowledgements](#4-acknowledgements)
 - [5. Citation](#5-citation)
 - [6. Star History](#6-star-history)
@@ -171,6 +172,28 @@ For datasets or benchmarks spanning multiple levels, use combined labels such as
 | VQA-RAD | N/A | <a href="https://osf.io/89kps/"><img src="https://img.shields.io/badge/Dataset-OSF-orange.svg" alt="Dataset" height="20"></a> | Public radiology visual-question-answering benchmark used in biomedical VLM evaluation such as LLaVA-Med. |
 | SLAKE | N/A | <a href="https://www.med-vqa.com/slake/"><img src="https://img.shields.io/badge/Dataset-SLAKE-orange.svg" alt="Dataset" height="20"></a> | Public medical visual-question-answering benchmark used in biomedical VLM evaluation such as LLaVA-Med. |
 | TITAN TCGA-Derived Benchmarks | G3 | <a href="https://github.com/mahmoodlab/TITAN"><img src="https://img.shields.io/badge/Code-GitHub-green.svg" alt="Code" height="20"></a> <a href="https://portal.gdc.cancer.gov/"><img src="https://img.shields.io/badge/Dataset-GDC-orange.svg" alt="Dataset" height="20"></a> | TCGA-derived public benchmark splits introduced by TITAN, including TCGA-UniformTumor-8K, TCGA-OncoTree, and TCGA-Slide-Reports. |
+
+## Related: Histology and Spatial Transcriptomics
+
+Complementary **image→omics** work (histology linked to gene expression / spatial transcriptomics), outside the core pathology VLM (image + text) scope above. Included here for researchers interested in multimodal histology beyond vision–language.
+
+### Models
+
+| Model Name | Paper Title | Granularity | Resources&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Summary |
+| ---------- | ----------- | ----------- | --------- | ------- |
+| DeepSpot | DeepSpot: Leveraging Spatial Context for Enhanced Spatial Transcriptomics Prediction from H&E Images | G1/G2/G3 | <a href="https://www.medrxiv.org/content/10.1101/2025.02.09.25321567v3"><img src="https://img.shields.io/badge/Paper-medRxiv%202025-6A5ACD.svg" alt="Paper" height="20"></a> <a href="https://github.com/ratschlab/DeepSpot"><img src="https://img.shields.io/badge/Code-GitHub-green.svg" alt="Code" height="20"></a> | Predicts spatial transcriptomics from H&E images using spatial context at spot and single-cell resolution. |
+| DeepSpot2Cell | DeepSpot2Cell: Predicting Virtual Single-Cell Spatial Transcriptomics from H&E images using Spot-Level Supervision | G1 | <a href="https://www.biorxiv.org/content/10.1101/2025.09.23.678121v3"><img src="https://img.shields.io/badge/Paper-bioRxiv%202025-6A5ACD.svg" alt="Paper" height="20"></a> <a href="https://github.com/ratschlab/DeepSpot2Cell"><img src="https://img.shields.io/badge/Code-GitHub-green.svg" alt="Code" height="20"></a> | Predicts virtual single-cell spatial transcriptomics from H&E using spot-level supervision (NeurIPS 2025 Imageomics). |
+| DeepSpot-M | DeepSpot-M: a multimodal foundation model for transcriptome-wide virtual spatial transcriptomics from histology | G1/G2/G3 | <a href="https://www.medrxiv.org/content/10.64898/2026.06.19.26356060v1"><img src="https://img.shields.io/badge/Paper-medRxiv%202026-6A5ACD.svg" alt="Paper" height="20"></a> <a href="https://github.com/ratschlab/DeepSpotM"><img src="https://img.shields.io/badge/Code-GitHub-green.svg" alt="Code" height="20"></a> | Multimodal foundation model for transcriptome-wide virtual spatial transcriptomics from histology. |
+| AESTETIK | AESTETIK: AutoEncoder for Spatial Transcriptomics Expression with Topology and Image Knowledge | G1 | <a href="https://doi.org/10.1093/bioinformatics/btag316"><img src="https://img.shields.io/badge/Paper-Bioinformatics%202026-1f77b4.svg" alt="Paper" height="20"></a> <a href="https://github.com/ratschlab/aestetik"><img src="https://img.shields.io/badge/Code-GitHub-green.svg" alt="Code" height="20"></a> | Learns ST representations with topology and histology image knowledge. |
+
+### Datasets
+
+Multimodal virtual spatial transcriptomics from DeepSpot-M (H&E + gene expression + spatial coordinates + gene IDs). Gated on Hugging Face (CC-BY-NC-SA-4.0).
+
+| Dataset/Benchmark Name | Granularity | Resources | Description |
+| ---------------------- | ----------- | --------- | ----------- |
+| TCGA virtual spatial transcriptomics atlas | G3 | <a href="https://www.medrxiv.org/content/10.64898/2026.06.19.26356060v1"><img src="https://img.shields.io/badge/Paper-medRxiv%202026-6A5ACD.svg" alt="Paper" height="20"></a> <a href="https://huggingface.co/datasets/ratschlab/TCGA_virtual_spatial_transcriptomics_atlas"><img src="https://img.shields.io/badge/Dataset-HuggingFace-orange.svg" alt="Dataset" height="20"></a> <a href="https://github.com/ratschlab/DeepSpotM"><img src="https://img.shields.io/badge/Code-GitHub-green.svg" alt="Code" height="20"></a> | Multimodal virtual ST from DeepSpot-M on TCGA H&E; 28,664 slides / 32 cancers / 295.3M spots / 10,865 patients (gated). |
+| HEST Xenium virtual spatial transcriptomics | G2/G3 | <a href="https://www.medrxiv.org/content/10.64898/2026.06.19.26356060v1"><img src="https://img.shields.io/badge/Paper-medRxiv%202026-6A5ACD.svg" alt="Paper" height="20"></a> <a href="https://huggingface.co/datasets/ratschlab/HEST_Xenium_virtual_spatial_transcriptomics"><img src="https://img.shields.io/badge/Dataset-HuggingFace-orange.svg" alt="Dataset" height="20"></a> <a href="https://github.com/ratschlab/DeepSpotM"><img src="https://img.shields.io/badge/Code-GitHub-green.svg" alt="Code" height="20"></a> | Multimodal virtual single-cell ST from DeepSpot-M on 59 HEST-1k Xenium samples; ~13.3M cells / 22 tissue types (gated). |
 
 ## 4. Acknowledgements
 
