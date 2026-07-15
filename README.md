@@ -192,4 +192,4 @@ If this repository is helpful for your project, please consider citing it:
 
 ## 6. Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=wenhaozhang0066/Awesome-Pathology-VLMs&type=Date)](https://star-history.com/#wenhaozhang0066/Awesome-Pathology-VLMs&Date)
+[![Star History Chart](https://api.star-history.com/chart?repos=wenhaozhang0066/Awesome-Pathology-VLMs&type=date&legend=top-left&sealed_token=UzfBRIn_tWti3hfnD7iEu8iy9ULAjLgxIIi--TsZ0wTHTzttVSyzPXqmmvB2V4N6p-m3-XOn8m1K3dvaqNsIhCvGILc2nNyYyhDAaIuyWa7kd46e851JLN8Ka2DjrPdjPs12toDDxSufkUrOBhKaxVsunBFCWnjfQ4vvIyENocNiFcO4zpyHFBUD3sN6)](https://www.star-history.com/?repos=wenhaozhang0066%2FAwesome-Pathology-VLMs&type=date&legend=top-left)
