@@ -30,10 +30,10 @@
   - [2.4 Agent-Based Systems](#24-agent-based-systems)
   - [2.5 VLM-Augmented MIL](#25-vlm-augmented-mil)
 - [3. Datasets and Benchmarks](#3-datasets-and-benchmarks)
-- [Related: Histology and Spatial Transcriptomics](#related-histology-and-spatial-transcriptomics)
-- [4. Acknowledgements](#4-acknowledgements)
-- [5. Citation](#5-citation)
-- [6. Star History](#6-star-history)
+- [4. Related: Histology and Spatial Transcriptomics](#related-histology-and-spatial-transcriptomics)
+- [5. Acknowledgements](#4-acknowledgements)
+- [6. Citation](#5-citation)
+- [7. Star History](#6-star-history)
 
 ## 1. Aim of the Project
 
