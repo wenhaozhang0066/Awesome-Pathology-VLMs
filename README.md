@@ -4,7 +4,7 @@
   <a href="https://github.com/sindresorhus/awesome"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome"></a>
   <a href="#"><img src="https://img.shields.io/badge/Topic-Digital%20Pathology-8A2BE2.svg" alt="Topic: Digital Pathology"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache_2.0-blue.svg" alt="License: Apache 2.0"></a>
-  <a href="https://github.com/wenhaozhang0066/Awesome-Pathology-VLMs/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome"></a>
+  <a href="https://github.com/easonPing/Awesome-Pathology-VLMs/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome"></a>
 </p>
 
 **A curated awesome list of pathology vision-language models, datasets, benchmarks, and related resources.**
@@ -30,10 +30,9 @@
   - [2.4 Agent-Based Systems](#24-agent-based-systems)
   - [2.5 VLM-Augmented MIL](#25-vlm-augmented-mil)
 - [3. Datasets and Benchmarks](#3-datasets-and-benchmarks)
-- [4. Related: Histology and Spatial Transcriptomics](#related-histology-and-spatial-transcriptomics)
-- [5. Acknowledgements](#4-acknowledgements)
-- [6. Citation](#5-citation)
-- [7. Star History](#6-star-history)
+- [4. Acknowledgements](#4-acknowledgements)
+- [5. Citation](#5-citation)
+- [6. Star History](#6-star-history)
 
 ## 1. Aim of the Project
 
@@ -155,6 +154,7 @@ For datasets or benchmarks spanning multiple levels, use combined labels such as
 | WSI-Bench | G3 | <a href="https://arxiv.org/abs/2412.02141"><img src="https://img.shields.io/badge/Paper-arXiv%202024-6A5ACD.svg" alt="Paper" height="20"></a> <a href="https://wsi-llava.github.io/"><img src="https://img.shields.io/badge/Website-Project-ffb6c1.svg" alt="Website" height="20"></a> | WSI VQA benchmark with 179,569 QA pairs across 3 major categories and 11 task types. |
 | PathCoT | G1 | <a href="https://doi.org/10.1609/aaai.v40i33.40071"><img src="https://img.shields.io/badge/Paper-AAAI%202026-d62728.svg" alt="Paper" height="20"></a> <a href="https://github.com/Wenchuan-Zhang/Patho-R1"><img src="https://img.shields.io/badge/Code-GitHub-green.svg" alt="Code" height="20"></a> <a href="https://github.com/Wenchuan-Zhang/Patho-R1"><img src="https://img.shields.io/badge/Dataset-GitHub-orange.svg" alt="Dataset" height="20"></a> | Reasoning-oriented pathology CoT data used by Patho-R1 for SFT and RL-enhanced pathology reasoning. |
 | PathReasoner | G3 | <a href="https://arxiv.org/abs/2601.21617"><img src="https://img.shields.io/badge/Paper-arXiv%202026-6A5ACD.svg" alt="Paper" height="20"></a> <a href="https://github.com/cyclexfy/PathReasoner-R1"><img src="https://img.shields.io/badge/Code-GitHub-green.svg" alt="Code" height="20"></a> <a href="https://github.com/cyclexfy/PathReasoner-R1"><img src="https://img.shields.io/badge/Dataset-GitHub-orange.svg" alt="Dataset" height="20"></a> | WSI reasoning dataset with more than 20K knowledge-guided instructional samples for PathReasoner-R1. |
+| CleanSlide | G3 | <a href="https://github.com/wenhaozhang0066/CleanSlide"><img src="https://img.shields.io/badge/Code-GitHub-green.svg" alt="Code" height="20"></a> <a href="https://huggingface.co/datasets/eric-1w/CleanSlide-features"><img src="https://img.shields.io/badge/Dataset-HuggingFace-orange.svg" alt="Dataset" height="20"></a> | Leakage-audited pan-cancer WSI multiple-choice benchmark on TCGA with 148,654 four-option questions over 9,985 diagnostic slides; train/val/test are patient- and tissue-source-site (TSS) disjoint, and every question is audited on four cleanliness dimensions with the blind (image-free) baseline reported. |
 | PathVQA | G1 | <a href="https://arxiv.org/abs/2003.10286"><img src="https://img.shields.io/badge/Paper-arXiv%202020-6A5ACD.svg" alt="Paper" height="20"></a> <a href="https://huggingface.co/datasets/flaviagiammarino/path-vqa"><img src="https://img.shields.io/badge/Dataset-HuggingFace-orange.svg" alt="Dataset" height="20"></a> <a href="https://github.com/KaveeshaSilva/PathVQA"><img src="https://img.shields.io/badge/Code-GitHub-green.svg" alt="Code" height="20"></a> | Pathology VQA benchmark with 4,998 images and 32,799 QA pairs. |
 | PathMMU | G1 | <a href="https://arxiv.org/abs/2401.16355"><img src="https://img.shields.io/badge/Paper-arXiv%202024-6A5ACD.svg" alt="Paper" height="20"></a> <a href="https://huggingface.co/datasets/jamessyx/PathMMU"><img src="https://img.shields.io/badge/Dataset-HuggingFace-orange.svg" alt="Dataset" height="20"></a> <a href="https://github.com/PathMMU-Benchmark/PathMMU"><img src="https://img.shields.io/badge/Code-GitHub-green.svg" alt="Code" height="20"></a> <a href="https://pathmmu-benchmark.github.io/"><img src="https://img.shields.io/badge/Website-Project-ffb6c1.svg" alt="Website" height="20"></a> | Pathology multimodal understanding benchmark with 24,067 items and 33,428 multiple-choice questions. |
 | WSI-VQA | G3 | <a href="https://arxiv.org/abs/2407.05603"><img src="https://img.shields.io/badge/Paper-arXiv%202024-6A5ACD.svg" alt="Paper" height="20"></a> <a href="https://github.com/cpystan/WSI-VQA"><img src="https://img.shields.io/badge/Dataset-GitHub-orange.svg" alt="Dataset" height="20"></a> | Whole-slide VQA benchmark with 977 WSIs and 8,672 QA pairs. |
@@ -173,33 +173,11 @@ For datasets or benchmarks spanning multiple levels, use combined labels such as
 | SLAKE | N/A | <a href="https://www.med-vqa.com/slake/"><img src="https://img.shields.io/badge/Dataset-SLAKE-orange.svg" alt="Dataset" height="20"></a> | Public medical visual-question-answering benchmark used in biomedical VLM evaluation such as LLaVA-Med. |
 | TITAN TCGA-Derived Benchmarks | G3 | <a href="https://github.com/mahmoodlab/TITAN"><img src="https://img.shields.io/badge/Code-GitHub-green.svg" alt="Code" height="20"></a> <a href="https://portal.gdc.cancer.gov/"><img src="https://img.shields.io/badge/Dataset-GDC-orange.svg" alt="Dataset" height="20"></a> | TCGA-derived public benchmark splits introduced by TITAN, including TCGA-UniformTumor-8K, TCGA-OncoTree, and TCGA-Slide-Reports. |
 
-## 4. Related: Histology and Spatial Transcriptomics
-
-Complementary **image→omics** work (histology linked to gene expression / spatial transcriptomics), outside the core pathology VLM (image + text) scope above. Included here for researchers interested in multimodal histology beyond vision–language.
-
-### 4.1 Models
-
-| Model Name | Paper Title | Granularity | Resources&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Summary |
-| ---------- | ----------- | ----------- | --------- | ------- |
-| DeepSpot | DeepSpot: Leveraging Spatial Context for Enhanced Spatial Transcriptomics Prediction from H&E Images | G1/G2/G3 | <a href="https://www.medrxiv.org/content/10.1101/2025.02.09.25321567v3"><img src="https://img.shields.io/badge/Paper-medRxiv%202025-6A5ACD.svg" alt="Paper" height="20"></a> <a href="https://github.com/ratschlab/DeepSpot"><img src="https://img.shields.io/badge/Code-GitHub-green.svg" alt="Code" height="20"></a> | Predicts spatial transcriptomics from H&E images using spatial context at spot and single-cell resolution. |
-| DeepSpot2Cell | DeepSpot2Cell: Predicting Virtual Single-Cell Spatial Transcriptomics from H&E images using Spot-Level Supervision | G1 | <a href="https://www.biorxiv.org/content/10.1101/2025.09.23.678121v3"><img src="https://img.shields.io/badge/Paper-bioRxiv%202025-6A5ACD.svg" alt="Paper" height="20"></a> <a href="https://github.com/ratschlab/DeepSpot2Cell"><img src="https://img.shields.io/badge/Code-GitHub-green.svg" alt="Code" height="20"></a> | Predicts virtual single-cell spatial transcriptomics from H&E using spot-level supervision (NeurIPS 2025 Imageomics). |
-| DeepSpot-M | DeepSpot-M: a multimodal foundation model for transcriptome-wide virtual spatial transcriptomics from histology | G1/G2/G3 | <a href="https://www.medrxiv.org/content/10.64898/2026.06.19.26356060v1"><img src="https://img.shields.io/badge/Paper-medRxiv%202026-6A5ACD.svg" alt="Paper" height="20"></a> <a href="https://github.com/ratschlab/DeepSpotM"><img src="https://img.shields.io/badge/Code-GitHub-green.svg" alt="Code" height="20"></a> | Multimodal foundation model for transcriptome-wide virtual spatial transcriptomics from histology. |
-| AESTETIK | AESTETIK: AutoEncoder for Spatial Transcriptomics Expression with Topology and Image Knowledge | G1 | <a href="https://doi.org/10.1093/bioinformatics/btag316"><img src="https://img.shields.io/badge/Paper-Bioinformatics%202026-1f77b4.svg" alt="Paper" height="20"></a> <a href="https://github.com/ratschlab/aestetik"><img src="https://img.shields.io/badge/Code-GitHub-green.svg" alt="Code" height="20"></a> | Learns ST representations with topology and histology image knowledge. |
-
-### 4.2 Datasets
-
-Multimodal virtual spatial transcriptomics from DeepSpot-M (H&E + gene expression + spatial coordinates + gene IDs). Gated on Hugging Face (CC-BY-NC-SA-4.0).
-
-| Dataset/Benchmark Name | Granularity | Resources | Description |
-| ---------------------- | ----------- | --------- | ----------- |
-| TCGA virtual spatial transcriptomics atlas | G3 | <a href="https://www.medrxiv.org/content/10.64898/2026.06.19.26356060v1"><img src="https://img.shields.io/badge/Paper-medRxiv%202026-6A5ACD.svg" alt="Paper" height="20"></a> <a href="https://huggingface.co/datasets/ratschlab/TCGA_virtual_spatial_transcriptomics_atlas"><img src="https://img.shields.io/badge/Dataset-HuggingFace-orange.svg" alt="Dataset" height="20"></a> <a href="https://github.com/ratschlab/DeepSpotM"><img src="https://img.shields.io/badge/Code-GitHub-green.svg" alt="Code" height="20"></a> | Multimodal virtual ST from DeepSpot-M on TCGA H&E; 28,664 slides / 32 cancers / 295.3M spots / 10,865 patients (gated). |
-| HEST Xenium virtual spatial transcriptomics | G2/G3 | <a href="https://www.medrxiv.org/content/10.64898/2026.06.19.26356060v1"><img src="https://img.shields.io/badge/Paper-medRxiv%202026-6A5ACD.svg" alt="Paper" height="20"></a> <a href="https://huggingface.co/datasets/ratschlab/HEST_Xenium_virtual_spatial_transcriptomics"><img src="https://img.shields.io/badge/Dataset-HuggingFace-orange.svg" alt="Dataset" height="20"></a> <a href="https://github.com/ratschlab/DeepSpotM"><img src="https://img.shields.io/badge/Code-GitHub-green.svg" alt="Code" height="20"></a> | Multimodal virtual single-cell ST from DeepSpot-M on 59 HEST-1k Xenium samples; ~13.3M cells / 22 tissue types (gated). |
-
-## 5. Acknowledgements
+## 4. Acknowledgements
 
 This repository builds upon many work of researchers and groups developing pathology vision-language models. We sincerely thank the author, maintainer, and the contributors of the papers, datasets, and benchmarks collected in this project.
 
-## 6. Citation
+## 5. Citation
 
 If this repository is helpful for your project, please consider citing it:
 
@@ -209,10 +187,10 @@ If this repository is helpful for your project, please consider citing it:
   author = {{Awesome-Pathology-VLMs Contributors}},
   journal = {Github repository},
   year = {2026},
-  url = {https://github.com/wenhaozhang0066/Awesome-Pathology-VLMs},
+  url = {https://github.com/easonPing/Awesome-Pathology-VLMs},
 }
 ```
 
-## 7. Star History
+## 6. Star History
 
-[![Star History Chart](https://api.star-history.com/chart?repos=wenhaozhang0066/Awesome-Pathology-VLMs&type=date&legend=top-left&sealed_token=UzfBRIn_tWti3hfnD7iEu8iy9ULAjLgxIIi--TsZ0wTHTzttVSyzPXqmmvB2V4N6p-m3-XOn8m1K3dvaqNsIhCvGILc2nNyYyhDAaIuyWa7kd46e851JLN8Ka2DjrPdjPs12toDDxSufkUrOBhKaxVsunBFCWnjfQ4vvIyENocNiFcO4zpyHFBUD3sN6)](https://www.star-history.com/?repos=wenhaozhang0066%2FAwesome-Pathology-VLMs&type=date&legend=top-left)
+[![Star History Chart](https://api.star-history.com/svg?repos=easonPing/Awesome-Pathology-VLMs&type=Date)](https://star-history.com/#easonPing/Awesome-Pathology-VLMs&Date)
