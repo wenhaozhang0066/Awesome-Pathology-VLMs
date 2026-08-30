@@ -189,7 +189,7 @@ If this repository is helpful for your project, please consider citing it:
   author = {{Awesome-Pathology-VLMs Contributors}},
   journal = {Github repository},
   year = {2026},
-  url = {https://github.com/easonPing/Awesome-Pathology-VLMs},
+  url = {https://github.com/wenhaozhang0066/Awesome-Pathology-VLMs},
 }
 ```
 
